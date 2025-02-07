@@ -1,0 +1,19 @@
+model:
+  name: "deepseek-r1-distill-qwen-14b"
+  path: "/root/.cache/huggingface/hub/models--deepseek-ai--deepseek-r1-distill-qwen-14b/snapshots/6453600843497f04e63f069049e92bf221d9e000"
+sentence_transformer_model: "sentence-transformers/all-mpnet-base-v2"
+reranker_model: "cross-encoder/ms-marco-MiniLM-L-12-v2"
+pgvector:
+  dbname: "mydb"
+  user: "admin"
+  password: "admin"
+  host: "localhost"
+  port: "5432"
+knowledge_retrival:
+  top_k: 10
+  top_n: 4
+text_generation:
+  max_length: 512
+  top_k: 50
+  top_p: 0.9
+  temperature: 0.7

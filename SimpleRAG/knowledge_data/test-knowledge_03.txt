@@ -1,0 +1,15 @@
+Aqualeo is a cloud-first company, utilizing a hybrid cloud architecture to deliver scalable, flexible, and secure IT services to its customers.
+The company's cloud infrastructure is designed around a multi-cloud approach, leveraging AWS, Azure, and Alibaba Cloud for different workloads.
+Amazon Web Services (AWS) provides the foundation for Aqualeo's core services, including EC2 instances (c5.2xlarge), S3 storage (100 TB), and RDS (db.m5.large) for relational database management.
+Azure is used for hosting machine learning workloads, with virtual machines (Standard_NC6) and Azure Blob Storage (200 TB) for big data analytics.
+Alibaba Cloud powers the company's global operations with Elastic Compute Service (ECS) (e.g., ecs.g5.large) for running web applications and Elasticsearch for log management.
+For networking, Aqualeo employs AWS Transit Gateway for inter-region connectivity and Azure ExpressRoute for private, high-throughput links between on-premises and cloud environments.
+The company's cloud-native applications are containerized using Docker and orchestrated with Kubernetes, with EKS on AWS and AKS on Azure.
+Aqualeo uses Terraform and AWS CloudFormation for Infrastructure as Code (IaC), ensuring repeatable and scalable cloud deployments.
+Security is a key concern for Aqualeo, and the company implements a Zero Trust security model with strict identity and access management (IAM) policies, using AWS IAM, Azure Active Directory, and Alibaba Cloud RAM.
+The company uses managed services for database, analytics, and AI to reduce operational overhead, with Amazon Aurora for high availability databases and Azure Synapse Analytics for big data processing.
+For monitoring and observability, Aqualeo leverages Prometheus and Grafana for system metrics, CloudWatch for AWS logs, and Azure Monitor for performance metrics across environments.
+Aqualeo’s CI/CD pipeline is powered by Jenkins for automated build and deployment, integrated with GitHub for source code management, and Azure DevOps for collaboration across teams.
+The company employs a disaster recovery plan with multi-region backups on AWS S3, Azure Blob Storage, and Alibaba Cloud OSS, ensuring data resiliency in case of failure.
+Aqualeo’s compliance strategy includes data encryption at rest and in transit, along with regular security audits to meet industry standards like GDPR, HIPAA, and PCI-DSS.
+By using a multi-cloud strategy, Aqualeo is able to optimize cost, enhance performance, and ensure redundancy across its infrastructure, catering to the specific needs of its diverse customer base.
